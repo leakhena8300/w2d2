@@ -81,7 +81,7 @@ plt.style.use("seaborn")
 #get_ipython().magic('cd /content/drive/My Drive/Introduction2DataScience/data/')
 
 df = pd.read_csv(
-    "banking.csv"
+    "data/banking.csv"
 )
 df.insert(0, 'customer_id', range(1,41189))
 df.columns
